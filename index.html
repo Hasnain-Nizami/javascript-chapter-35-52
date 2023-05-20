@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* ///////////////////question2////////////////////////////// */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+    }
+
+    .imagebox {
+        width: 90%;
+        height: 100%;
+        background-color: rgb(242, 238, 238);
+        border: 1px solid #666;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .imagebox img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .imagebox span {
+        font-size: 22px;
+        text-align: center;
+    }
+    .modal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height:100vh;
+        display: none;
+    }
+     .alert{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ebe7e7;
+        padding: 10px;
+        gap: 10px;
+        position: relative;
+        z-index: 2;
+    }
+    .alert button{
+        padding: 5px 20px;
+    } 
+    .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        background-color: rgba(25, 25, 25, 0.8); 
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+    }  */
+
+    /* ///////////////////question3/////////////// */
+
+    /* .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    tr{
+        background-color: rgb(207, 213, 213);
+        text-align: center;
+        
+    }
+    th{
+        background-color: rgb(102, 101, 101);
+        padding: 10px 30px;
+        border: 1px solid black;
+    }
+    table{
+        border: 1px solid rgb(0, 0, 0);
+    }
+    td{
+        border: 1px solid black;
+    }
+    td button{
+        width: 60px;
+    } */
+
+    /* ////////////////////////question4/////////////////// */
+    /* .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic{
+        width:20%;
+        height: 50%;
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    } */
+
+    /* //////////////////////////////question5///////////////////////// */
+
+    /* .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 35px
+    }
+    button{
+        padding: 5px 20px;
+        font-weight: bold;
+        font-size: 25px;
+    } */
+
+    /* ///////////////////////////////49-52//////////////////////////////// */
+
+    /* ///////////////////////////////question1/////////////////////////////// */
+
+    /* .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .input{
+        width: 60%;
+
+    }
+    .input input{
+        width: 90%;
+        padding: 5px;
+    }
+    .input label{
+        font-size: 25px;
+    }
+    .sub{
+        padding: 5px 30px;
+    } */
+
+    /* ////////////////////////////////question2//////////////////////////////*/
+
+    /* p{
+        display: inline;
+    }
+    h1{
+        display: inline;
+    }
+    button{
+        padding: 4px 15px;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .hide{
+        display: none;
+    } */
+
+    /* /////////////////////////////////question3////////////////////////////////////// */
+
+    /* .main {
+        width: 80%;
+        margin: 0 auto;
+        background-color: rgb(233, 233, 233);
+        box-shadow: 1px 2px 20px 7px rgba(0,0,0,0.75);
+       -webkit-box-shadow: 1px 2px 20px 7px rgba(0,0,0,0.75);
+       -moz-box-shadow: 1px 2px 20px 7px rgba(0,0,0,0.75);
+    }
+
+    .input {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .input button {
+        padding: 3px 15px;
+    }
+
+    .dis {
+        width: 30%
+    }
+
+    .dis input {
+
+        width: 100%;
+    }
+    .sec{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(213, 215, 215);
+    }
+
+    @media only screen and (max-width: 450px){
+        .main{
+            width: 100%;
+        }
+        .dis{
+            width: 70%;
+        }
+    } */
+</style>
+
+<body>
+    <!-- /////////////////chapter38-48///////////////////////////////// -->
+    <!-- /////////////////question1////////////////// -->
+
+    <!-- <a href="#" onclick="foo()">Click me</a> -->
+
+    <!-- //////////////////////question2////////////////// -->
+
+    <!-- <div class="main">
+        <div class="box">
+            <div class="imagebox" onclick="foo(this)">
+                <img src="./iphone.jpg" alt="">
+                <span>Iphone 11 pro max</span>
+            </div>
+
+            <div class="imagebox" onclick="foo(this)">
+                <img src="./Nokia-C31-Mint-5.png" alt="">
+                <span>Nokia c31</span>
+            </div>
+
+            <div class="imagebox" onclick="foo(this)">
+                <img src="./Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp" alt="">
+                <span>sumsung s22 ultra</span>
+            </div>
+
+            <div class="imagebox" onclick="foo(this)">
+                <img src="./redmi-note-12-5g-pro-plus-db-gadgets360-800x600-1673019783.webp" alt="">
+                <span>redmi note 12</span>
+            </div>
+
+        </div>
+        <div class="modal">
+            <div class="overlay" onclick="hell()"></div>
+            <div class="alert">
+                <h1>Thanku for purchasing <span id="display"></span></h1>
+                <button onclick="hell()">OK</button>
+            </div>
+        </div>
+    </div>  -->
+
+    <!-- //////////////////////question3////////////////// -->
+
+    <!-- <div class="main">
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>hasnain</td>
+                    <td>10</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ali</td>
+                    <td>8</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>shams</td>
+                    <td>7</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>fahad</td>
+                    <td>9</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>ahmed</td>
+                    <td>7</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>shameer</td>
+                    <td>4</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>rehan</td>
+                    <td>10</td>
+                    <td><button onclick="foo(this)">Delete</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div> -->
+
+    <!-- /////////////////////////question4/////////////////////////// -->
+
+    <!-- <div class="main">
+    <div class="pic">
+        <img src="./Nokia-C31-Mint-5.png" onmouseover="foo('over')" onmouseout="foo('out')"  class="pik" alt="photo">
+    </div>
+</div> -->
+
+    <!-- ////////////////////////////question5////////////////////////// -->
+
+    <!-- <div class="main">
+    <p id="display">0</p>
+    <div>
+    <button id="increament">-</button>
+    <button id="decreament">+</button>
+    </div>
+</div> -->
+
+    <!-- ////////////////////////////////////chapter49-52////////////////////////////////////// -->
+
+    <!-- //////////////////////////////////////question1////////////////////////////////////// -->
+
+    <!-- <div class="main">
+        <div class="input">
+            <label for="Name">Name</label>
+            <input type="text" name="" id="nam">
+        </div>
+        <div class="input">
+            <label for="Age">Age</label>
+            <input type="text" name="" id="age">
+        </div>
+        <div class="input">
+            <label for="Mail">Mail</label>
+            <input type="text" name="" id="mail">
+        </div>
+        
+            <button class="sub" onclick="foo()">submit</button>
+        
+    </div> -->
+
+    <!-- ///////////////////////////////question2/////////////////////////////// -->
+
+    <!-- <h1>Lorem, ipsum dolor:<p class="hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet facilis laudantium sequi voluptas ducimus!</p><a href="javascript:void(0)" onclick="show()">see more</a></h1> -->
+
+    <!-- ///////////////////////////////////question3///////////////////////////////////// -->
+    <!-- <div class="sec">
+    <div class="main">
+        <div id="scroll" class="input">
+            <div class="dis">
+                <label for="namedisplay">Name</label>
+                <input id="namedisplay" type="text">
+            </div>
+            <div class="dis">
+                <label for="classdisplay">Class</label>
+                <input id="classdisplay" type="number">
+            </div>
+            <br>
+            <button id="sub">submit</button>
+
+        </div>
+
+        <table id="table" border="1" style="width: 100%;margin-top: 2rem; text-align: center;">
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>delete</th>
+                <th>update</th>
+            </tr>
+        </table>
+    </div>
+</div> -->
+
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
